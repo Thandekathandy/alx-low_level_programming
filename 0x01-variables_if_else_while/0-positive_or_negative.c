@@ -1,8 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
-#include </*stdio.h>
-/*more header goes there */
-
+#include <stdio.h>
 /**
 *main - Entry point
 *Description - prints if random generated number is +tive, zero or -tive
@@ -10,9 +8,9 @@
 */
 int main(void)
 (
-int n;
-srand(time(0))
-n= rand() - RAND_MAX / 2;
+srand(time(0));
+n = rand() - RAND_MAX / 2;
+)
 if (n < 0)
 (
 prinft("%d is positive\n", n);
